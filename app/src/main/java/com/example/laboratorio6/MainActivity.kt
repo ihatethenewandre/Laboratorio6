@@ -80,9 +80,9 @@ fun NavigationDrawer() {
                         .height(151.dp)
                     ) { Text(text = "") }
                     Divider()
-                    NavigationDrawerItem(label = { Text(text = "Pantalla #1", color = Amarillo)},
+                    NavigationDrawerItem(label = { Text(text = "Pantalla #1", color = Color.Black)},
                         selected = false,
-                        icon = { Icon(imageVector = Icons.Default.Star, contentDescription = "", tint = Color.Black)},
+                        icon = { Icon(imageVector = Icons.Default.Star, contentDescription = "", tint = Amarillo)},
                         onClick = {
                             coroutineScope.launch {
                                 drawerState.close()
@@ -92,9 +92,9 @@ fun NavigationDrawer() {
                             }
                         }
                     )
-                    NavigationDrawerItem(label = { Text(text = "Pantalla #3", color = Amarillo)},
+                    NavigationDrawerItem(label = { Text(text = "Pantalla #3", color = Color.Black)},
                         selected = false,
-                        icon = { Icon(imageVector = Icons.Default.Star, contentDescription = "", tint = Color.Black)},
+                        icon = { Icon(imageVector = Icons.Default.Star, contentDescription = "", tint = Amarillo)},
                         onClick = {
                             coroutineScope.launch {
                                 drawerState.close()
@@ -104,9 +104,9 @@ fun NavigationDrawer() {
                             }
                         }
                     )
-                    NavigationDrawerItem(label = { Text(text = "Pantalla #4", color = Amarillo)},
+                    NavigationDrawerItem(label = { Text(text = "Pantalla #4", color = Color.Black)},
                         selected = false,
-                        icon = { Icon(imageVector = Icons.Default.Star, contentDescription = "", tint = Color.Black)},
+                        icon = { Icon(imageVector = Icons.Default.Star, contentDescription = "", tint = Amarillo)},
                         onClick = {
                             coroutineScope.launch {
                                 drawerState.close()

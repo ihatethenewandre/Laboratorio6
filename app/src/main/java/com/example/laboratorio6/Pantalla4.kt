@@ -66,13 +66,13 @@ fun Pantalla4() {
             item {
                 ConfigOption(
                     icon = Icons.Default.Person,
-                    title = "Edit Profile"
+                    title = "Editar Perfil"
                 )
             }
             item {
                 ConfigOption(
                     icon = Icons.Default.Lock,
-                    title = "Reset Password"
+                    title = "Cambiar Contraseña"
                 )
             }
             item {
@@ -90,7 +90,7 @@ fun Pantalla4() {
                             tint = Amarillo
                         )
                         Spacer(modifier = Modifier.width(16.dp))
-                        Text(text = "Notifications", fontSize = 18.sp)
+                        Text(text = "Notificaciones", fontSize = 18.sp)
                     }
                     Switch(
                         checked = notificationsEnabled,
@@ -101,7 +101,7 @@ fun Pantalla4() {
             item {
                 ConfigOption(
                     icon = Icons.Default.Star,
-                    title = "Favorites"
+                    title = "Favoritos"
                 )
             }
         }

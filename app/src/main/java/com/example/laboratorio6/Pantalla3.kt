@@ -38,14 +38,17 @@ val localidades = listOf(
 
 @Composable
 fun Pantalla3() {
-    Spacer(modifier = Modifier.height(151.dp))
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
-        contentPadding = PaddingValues(16.dp)
-    ) {
-        items(localidades) { localidad ->
-            LocalidadItem(localidad = localidad)
+    Column {
+        Spacer(modifier = Modifier.height(90.dp))
+
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            contentPadding = PaddingValues(16.dp)
+        ) {
+            items(localidades) { localidad ->
+                LocalidadItem(localidad = localidad)
+            }
         }
     }
 }
